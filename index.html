@@ -125,8 +125,8 @@
 
   @media (max-width:760px){
     :root{ --header-h:64px; }
-    .nav{ min-height:64px; }
-    .call-btn{ margin-left:auto; }
+    .nav{ min-height:64px; justify-content:center; }
+    .nav .call-btn{ display:none; }
     .nav .nav-links{ display:none; }
     .mobile-nav{
       display:grid; grid-template-columns:repeat(3,1fr); gap:8px;
@@ -142,7 +142,6 @@
   }
   @media (min-width:761px){ .mobile-nav{ display:none; } }
   @media (max-width:400px){
-    .brand-name .label{ display:none; }
     .wordmark{ font-size:19px; }
     .call-btn{ padding:0 14px; font-size:14.5px; }
   }
